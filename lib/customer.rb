@@ -46,23 +46,3 @@ class Customer
     result
   end
 end
-
-# gone_with_the_wind = Movie.new("Gone With The Wind", Movie::REGULAR)
-# moana = Movie.new("Moana", Movie::CHILDRENS)
-# rental1 = Rental.new(gone_with_the_wind, 2)
-# rental2 = Rental.new(gone_with_the_wind, 3)
-# rental3 = Rental.new(moana, 1)
-# rental4 = Rental.new(moana, 4)
-# customer_johnny = Customer.new("Johnny")
-# customer_mary = Customer.new("Mary")
-# customer_alex = Customer.new("Alex")
-# customer_johnny.add_rental(rental1)
-# customer_johnny.add_rental(rental2)
-# customer_mary.add_rental(rental3)
-# customer_alex.add_rental(rental4)
-# p customer_johnny.name
-# puts customer_johnny.statement
-# p customer_mary.name
-# puts customer_mary.statement
-# p customer_alex.name
-# puts customer_alex.statement
